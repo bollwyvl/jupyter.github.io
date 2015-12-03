@@ -575,6 +575,11 @@
       "environments": {
         "env:ruby": {}
       },
+      "languages": [
+        "lang:ruby":{
+          "versions": ["2.1.0"]
+        }
+      ]
       "metrics": {
         "gh:forks": 26,
         "gh:stargazers": 148,
@@ -582,6 +587,10 @@
       },
       "name": "IRuby",
       "url": "http://nbviewer.ipython.org/github/SciRuby/sciruby-notebooks/blob/2282205f756b5e8cdba86407a437a01905159794/IRuby%20Examples/demo.ipynb",
+      "logo": "https://raw.githubusercontent.com/SciRuby/iruby/master/logo/logo-64x64.png",
+      "features": [
+        "feat:autocomplete"
+      ]
     },
     "kern:iscala": {
       "@id": "kern:iscala",

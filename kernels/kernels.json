@@ -568,20 +568,29 @@
     "kern:iruby": {
       "@id": "kern:iruby",
       "actions": {
-        "act:github": "gh:minad/iruby",
-        "act:view": "nbv:github/minad/iruby/blob/master/IRuby-Example.ipynb"
+        "act:github": "gh:SciRuby/iruby",
+        "act:view": "nbv:github/SciRuby/sciruby-notebooks/blob/master/IRuby%20Examples/demo.ipynb"
       },
       "description": "Ruby kernel for IPython Notebook",
       "environments": {
         "env:ruby": {}
       },
+      "languages": [
+        "lang:ruby":{
+          "versions": ["2.1.0"]
+        }
+      ]
       "metrics": {
         "gh:forks": 26,
         "gh:stargazers": 148,
         "gh:updated": "2015-05-08T23:34:43+00:00"
       },
       "name": "IRuby",
-      "url": "http://nbviewer.ipython.org/github/minad/iruby/blob/master/IRuby-Example.ipynb"
+      "url": "http://nbviewer.ipython.org/github/SciRuby/sciruby-notebooks/blob/2282205f756b5e8cdba86407a437a01905159794/IRuby%20Examples/demo.ipynb",
+      "logo": "https://raw.githubusercontent.com/SciRuby/iruby/master/logo/logo-64x64.png",
+      "features": [
+        "feat:autocomplete"
+      ]
     },
     "kern:iscala": {
       "@id": "kern:iscala",

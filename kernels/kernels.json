@@ -579,7 +579,7 @@
         "lang:ruby":{
           "versions": ["2.1.0"]
         }
-      ]
+      ],
       "metrics": {
         "gh:forks": 26,
         "gh:stargazers": 148,
